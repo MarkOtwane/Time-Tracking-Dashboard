@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0d1323;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    align-items: stretch;
+ 
+    
+}
+.left-side{
+    display: flex;
+    background-color: #2b2655;
+    /* padding: 2rem 1rem; */
+    flex-direction: column;
+    width: 260px;
+    border-radius: 10px;
+}
+.left-side > .profile{
+    background-color: #6f62db;
+    padding: 1.3rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.left-side > .timespan{
+    color: #8783b3;
+    gap: 1.3rem;
+    padding: 1.3rem;
+    
+}
+.left-side > .timespan > p{
+    gap: 5.5rem;
+}
+
+.left-side > .timespan > p:nth-child(2){
+    color: white;
+}
+
+.picture > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+
+.left-side > .name{
+    display: flex;
+}
+
+.right-side{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.right-side > div{
+    background-color: #1c1f4a;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.right-side > div > .title{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side > div > .title > h1{
+    font-size: 1rem;
+}
+.right-side > div > .hours{
+    padding-top: 2rem;
+}
