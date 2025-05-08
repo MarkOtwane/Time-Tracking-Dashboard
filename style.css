@@ -79,3 +79,22 @@ body{
 .right-side > div > .hours{
     padding-top: 2rem;
 }
+
+.right-side > .work{
+    border-top: solid 2rem #c79220;
+}
+.right-side > .play{
+    border-top: solid 2rem #3727e9;
+}
+.right-side > .study{
+    border-top: solid 2rem #f7450f;
+}
+.right-side > .exercise{
+    border-top: solid 2rem hsl(143, 59%, 53%);
+}
+.right-side > .social{
+    border-top: solid 2rem hsl(290, 24%, 61%);
+}
+.right-side > .self-care{
+    border-top: solid 2rem hsl(49, 61%, 54%);
+}
