@@ -29,6 +29,7 @@ body{
     width: 260px;
     border-radius: 10px;
 }
+/* Profile side styling */
 .left-side > .profile{
     background-color: #6f62db;
     padding: 1.3rem;
